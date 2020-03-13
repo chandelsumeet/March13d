@@ -1,0 +1,363 @@
+.sec1-tab1
+{
+    display: none;
+    border-radius: 0 0 4px 4px;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.04);
+    border: 1px solid #EEE;
+    
+    padding: 1rem;
+}
+
+.sec1-tab2
+{
+    display: none;
+    border-radius: 0 0 4px 4px;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.04);
+    border: 1px solid #EEE;
+    
+    padding: 1rem;
+}
+
+#sec1-r1:checked ~  .tab-coll .sec1-tab1
+{
+    display: grid;
+}
+
+#sec1-r2:checked ~  .tab-coll .sec1-tab2
+{
+    display: grid;
+}
+.sec1-label
+{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    justify-content: end;
+  
+    margin-bottom: 6px;
+    z-index: 5;
+}
+
+.sec1-l1,.sec1-l2
+{    background: #f7f7f7;
+    border-left-color: #EEE;
+    border-right-color: #EEE;
+    border-top: 3px solid #CCC;
+    border-bottom: none;
+    border-left: 1px solid #EEE;
+    border-right: 1px solid #EEE;
+    border-radius: 5px 5px 0 0;
+    font-size: 14px;
+    color: #0088CC;
+    padding: 0.5rem 1rem;
+    
+}
+.sec1-f1
+{
+    color: #777;
+    line-height: 26px;
+    font-size: 13px;
+    font-family: "Open Sans", Arial, sans-serif;
+    font-weight: 400;
+
+}
+.sec1-f2
+{
+    color: #777;
+    line-height: 26px;
+    font-size: 13px;
+    font-family: "Open Sans", Arial, sans-serif;
+    font-weight: 400;
+}
+.sec1-main
+{
+    display: grid;
+    grid-template-rows: repeat(2,auto);
+    row-gap: ;
+}
+.sec1-main input
+{
+    display: none;
+}
+
+#sec1-r1:checked ~  .sec1-label .sec1-l1
+{
+    border-top-color:#0088CC ;
+    background-color: #fff;
+}
+
+#sec1-r2:checked ~  .sec1-label .sec1-l2
+{
+    border-top-color:#0088CC ;
+    background-color: #fff;
+}
+
+
+/*section1end*/
+
+
+.sec2-main
+{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    justify-content: left;
+}
+
+
+
+
+.sec2-l1,.sec2-l2
+{    background: #f7f7f7;
+    border-left-color: #EEE;
+    border-right-color: #EEE;
+    border-left: 3px solid #CCC;
+    border-bottom: none;
+    border-top: 1px solid #EEE;
+    border-right: 1px solid #EEE;
+    border-radius: 5px 5px 0 0;
+    font-size: 14px;
+    color: #0088CC;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+}
+
+
+#sec2-r1:checked ~  .sec2-label .sec2-l1
+{
+    border-left-color:#0088CC ;
+    background-color: #fff;
+}
+
+#sec2-r2:checked ~  .sec2-label .sec2-l2
+{
+    border-left-color:#0088CC ;
+    background-color: #fff;
+}
+.sec2-label
+{
+    display: grid;
+    grid-template-rows: repeat(2,auto);
+    
+}
+.sec2-label div
+{
+    display: grid;
+}
+
+
+
+#sec2-r1:checked ~  .tab-coll .sec2-tab1
+{
+    display: grid;
+}
+
+#sec2-r2:checked ~  .tab-coll .sec2-tab2
+{
+    display: grid;
+}
+
+.sec2-tab1
+{
+    display: none;
+    border-radius: 0 0 4px 4px;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.04);
+    border: 1px solid #EEE;
+    
+    padding: 1rem;
+}
+
+.sec2-tab2
+{
+    display: none;
+    border-radius: 0 0 4px 4px;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.04);
+    border: 1px solid #EEE;
+    
+    padding: 1rem;
+}
+.section2 input
+{
+    display: none;
+}
+
+/*section2end*/
+
+.sec3-div
+{
+
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: ;
+}
+.sec3-b
+{
+    
+}
+.sec3-label
+{
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    column-gap: 2rem;
+    justify-content: center;
+}
+.sec3-label1:hover .sec3-bor
+{
+    background-color: #0088CC;
+}
+.section3 i
+{
+    color: #0088CC;
+    font-size: 2em;
+    
+    height: 75px;
+    width: 75px;
+    border: 1px solid #dfdfdf;
+    border-radius: 50%;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+
+}
+
+.sec3-lab-b
+{
+    border: 5px solid #f7f7f7;
+    border-radius: 50%;
+    height: 75px;
+    width: 75px;
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+
+}
+.sec3-b
+{
+    color: #777;
+    line-height: 26px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: "Open Sans", Arial, sans-serif;
+    font-weight: 400;
+}
+.sec3-lab-b:hover
+{
+    height: 80px;
+    width: 80px;
+}
+.sec3-grid
+{
+   display: grid;
+   grid-template-rows: repeat(2,auto);
+   row-gap: 1rem;
+   justify-items: center;
+}
+.sec3-f4
+{
+    font-size: 1.4em;
+    font-weight: 600;
+    line-height: 27px;
+    color: #212529;
+    font-family: "Open Sans", Arial, sans-serif;
+}
+.sec3-f5
+{
+    color: #777;
+    line-height: 26px;
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.sec3-tab1,.sec3-tab2,.sec3-tab3,.sec3-tab4
+{
+    display: none;
+}
+
+#sec3-r1:checked ~  .sec3-tab1
+{
+    display: grid;
+    grid-template-rows: repeat(3,auto);
+    row-gap: 0.5rem;
+    justify-items: center;
+}
+#sec3-r2:checked ~  .sec3-tab2
+{
+    display: grid;
+    grid-template-rows: repeat(3,auto);
+    row-gap: 0.5rem;
+    justify-items: center;
+}
+#sec3-r3:checked ~  .sec3-tab3
+{
+    display: grid;
+    grid-template-rows: repeat(3,auto);
+    row-gap: 0.5rem;
+    justify-items: center;
+}
+#sec3-r4:checked ~  .sec3-tab4
+{
+    display: grid;
+    grid-template-rows: repeat(3,auto);
+    row-gap: 0.5rem;
+    justify-items: center;
+}
+.sec3-main
+{
+    display: grid;
+    grid-template-rows: repeat(2,auto);
+    row-gap: 2rem;
+}
+.section3 input
+{
+    display: none;
+}
+.sec3-bor 
+{
+    display: block;
+    width: 200px;
+    height: 3px;
+    background-color: #eee;
+}
+.sec3-f5
+{
+    text-align: center;
+}
+@media only screen and (max-width:500px)
+{
+    .sec3-label
+    {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto auto;
+        column-gap: 0.5rem;
+        row-gap: 2rem;
+    }
+    .sec3-l1 
+    {
+        grid-row: 1;
+        grid-column: 1/-1;
+    }
+    .sec3-l2 
+    {
+        grid-row: 2;
+        grid-column: 1/-1;
+    }
+}
+@media only screen and (min-width:500px) and (max-width:768px)
+{
+    .sec3-label
+    {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto;
+        row-gap: 2rem;
+    }
+    .sec3-l3
+    {
+        grid-row: 2;
+        grid-column: 2;
+    }
+}
